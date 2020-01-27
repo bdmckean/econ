@@ -19,8 +19,8 @@ to setup conda emnvironment for project:
 conda env create -f environment.yaml
 
 ### Project organization
-####data/ - directory of data files, not in github -- data created by code
-####population/ - code for generating population data
+#### data/ - directory of data files, not in github -- data created by code
+#### population/ - code for generating population data
 1. download and process UN dtaa
 2. download and process FRED data
 3. generate combined historical and predictions for population 
