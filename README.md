@@ -21,7 +21,11 @@ conda env create -f environment.yaml
 ### Project organization
 #### data/ - directory of data files, not in github -- data created by code
 #### population/ - code for generating population data
-1. download and process UN dtaa
-2. download and process FRED data
-3. generate combined historical and predictions for population 
+
+### Run these two first -- they will download and ETL poplution data       
+1. UN-population-prediction.ipynb  -- download and process UN data   
+2. Fred_population-past_data.ipynb -- download and process FRED data   
+
+### This will take data made in first tow steps and combine them to make charts   
+3. china_project_population_curves.ipynb --generate combined historical and predictions for population 
 
