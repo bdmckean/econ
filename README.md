@@ -29,3 +29,5 @@ conda env create -f environment.yaml
 ### This will take data made in first tow steps and combine them to make charts   
 3. china_project_population_curves.ipynb --generate combined historical and predictions for population 
 
+
+#### gdp
